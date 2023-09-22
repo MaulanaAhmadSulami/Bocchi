@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffbdf0;
+    font-family: 'Press Start 2P', 'sans-serif';
+    overflow-x: hidden;
+    font-size: 1.5em;
+}
+
+.preload {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+  
+#content{
+    margin: 2vh auto;
+    width: 80vw;
+}
+
+h1{   
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  
+}
+
+h2{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+hr{
+    border-bottom: 6px dashed white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#seperator{
+    margin-bottom: 10px;
+}
+
+#container {
+    text-align: center; 
+    font-weight: bold;
+    margin: 64px 0;
+}
+
+
+#container > p{
+    text-shadow: #ffbdf0 0 0 10px,#ffbdf0 0 0 10px,#ffbdf0 0 0 10px,#ffbdf0 0 0 10px,#ffbdf0 0 0 10px;
+}
+
+#counter{
+    color: #c081b1;
+    font-size: 2em;
+}
+
+
+#counter-button{
+    background-color: #d375bd;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#counter-button:hover {
+    background-color: #5e3f57;
+}
