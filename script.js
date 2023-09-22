@@ -77,7 +77,10 @@ function slimeBocchi(){
 
     const random = Math.floor(Math.random() * 2) + 1;
     const elem = document.createElement("img");
+
+    //fetch image
     elem.src = `img/bocchi${random}.gif`;
+
     elem.style.position = "absolute";
     elem.style.right = "-500px";
     elem.style.top = counter_button.getBoundingClientRect().bottom + window.scrollY - 430 + "px";
